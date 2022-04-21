@@ -46,4 +46,5 @@ data = dict(
         ann_file=data_root + 'VisDrone2019-DET_test_coco.json',
         img_prefix=data_root + 'VisDrone2019-DET_test/images/',
         pipeline=test_pipeline))
+
 evaluation = dict(interval=1, metric='bbox')
